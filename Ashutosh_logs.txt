@@ -1,0 +1,51 @@
+Interface                  IP-Address      OK? Method Status                Protocol
+Ethernet0/0                unassigned      YES NVRAM  administratively down down    
+Ethernet0/1                unassigned      YES NVRAM  administratively down down    
+Ethernet0/2                unassigned      YES NVRAM  administratively down down    
+Ethernet0/3                unassigned      YES NVRAM  administratively down down    
+Ethernet1/0                unassigned      YES NVRAM  administratively down down    
+Ethernet1/1                unassigned      YES NVRAM  administratively down down    
+Ethernet1/2                unassigned      YES NVRAM  administratively down down    
+Ethernet1/3                172.16.128.2    YES NVRAM  up                    up      
+Serial2/0                  unassigned      YES NVRAM  administratively down down    
+Serial2/1                  unassigned      YES NVRAM  administratively down down    
+Serial2/2                  unassigned      YES NVRAM  administratively down down    
+Serial2/3                  unassigned      YES NVRAM  administratively down down    
+Serial3/0                  unassigned      YES NVRAM  administratively down down    
+Serial3/1                  unassigned      YES NVRAM  administratively down down    
+Serial3/2                  unassigned      YES NVRAM  administratively down down    
+Serial3/3                  unassigned      YES NVRAM  administratively down down    
+Loopback0                  172.16.1.1      YES manual up                    up      
+
+-------------------------------------------------------
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+
+Total cdp entries displayed : 0
+
+-------------------------------------------------------
+
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
+       + - replicated route, % - next hop override
+
+Gateway of last resort is 172.16.128.1 to network 0.0.0.0
+
+O*E2  0.0.0.0/0 [110/10] via 172.16.128.1, 20:16:13, Ethernet1/3
+      172.16.0.0/16 is variably subnetted, 3 subnets, 2 masks
+C        172.16.1.1/32 is directly connected, Loopback0
+C        172.16.128.0/24 is directly connected, Ethernet1/3
+L        172.16.128.2/32 is directly connected, Ethernet1/3
+
+-------------------------------------------------------
+

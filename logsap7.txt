@@ -1,0 +1,2 @@
+some text file written '
+' This is a new line
